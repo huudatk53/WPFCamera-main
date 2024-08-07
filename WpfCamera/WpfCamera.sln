@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31729.503
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfCamera", "WpfCamera.csproj", "{99FFC2E8-9613-49C3-9ACD-EDED48574259}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "..\Common\Common.csproj", "{9EEEBF30-34A3-4FBA-AE1D-75FBE638CCF6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OGService", "..\OGService\OGService.csproj", "{983E7C63-4BCC-4348-8BC2-B31D7DE52D13}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{99FFC2E8-9613-49C3-9ACD-EDED48574259}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{99FFC2E8-9613-49C3-9ACD-EDED48574259}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{99FFC2E8-9613-49C3-9ACD-EDED48574259}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EEEBF30-34A3-4FBA-AE1D-75FBE638CCF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EEEBF30-34A3-4FBA-AE1D-75FBE638CCF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EEEBF30-34A3-4FBA-AE1D-75FBE638CCF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EEEBF30-34A3-4FBA-AE1D-75FBE638CCF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{983E7C63-4BCC-4348-8BC2-B31D7DE52D13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{983E7C63-4BCC-4348-8BC2-B31D7DE52D13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{983E7C63-4BCC-4348-8BC2-B31D7DE52D13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{983E7C63-4BCC-4348-8BC2-B31D7DE52D13}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
