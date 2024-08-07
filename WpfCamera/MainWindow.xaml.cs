@@ -1,4 +1,7 @@
-﻿using System;
+﻿using Common;
+using Database;
+using log4net;
+using System;
 using System.Drawing;
 using System.Linq;
 using System.Windows;
@@ -25,7 +28,11 @@ namespace WpfCamera
 
 		public MainWindow()
 		{
-			InitializeComponent();
+            LogHelper.Logger = LogManager.GetLogger("MyFileAppender");
+            LogHelper.LogInfo($"Start");
+            //var t = new LocalDbContext();
+
+            InitializeComponent();
 
 			_captureElement = new CaptureElement
 			{

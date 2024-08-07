@@ -107,7 +107,7 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="log4net">
-      <Version>2.0.14</Version>
+      <Version>2.0.17</Version>
     </PackageReference>
     <PackageReference Include="Microsoft.Toolkit.Wpf.UI.XamlHost">
       <Version>6.1.2</Version>
@@ -117,6 +117,10 @@
     <ProjectReference Include="..\Common\Common.csproj">
       <Project>{9eeebf30-34a3-4fba-ae1d-75fbe638ccf6}</Project>
       <Name>Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Database\Database.csproj">
+      <Project>{f68b1da7-864f-4385-8338-bffd167117e0}</Project>
+      <Name>Database</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
