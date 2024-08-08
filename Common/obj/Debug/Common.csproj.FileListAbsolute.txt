@@ -11,3 +11,16 @@ D:\Others\WPFCamera-main\Common\bin\Debug\System.CodeDom.xml
 D:\Others\WPFCamera-main\Common\obj\Debug\Common.csproj.Up2Date
 D:\Others\WPFCamera-main\Common\obj\Debug\Common.dll
 D:\Others\WPFCamera-main\Common\obj\Debug\Common.pdb
+D:\demo\WPFCamera-main\Common\bin\Debug\Common.dll
+D:\demo\WPFCamera-main\Common\bin\Debug\Common.pdb
+D:\demo\WPFCamera-main\Common\bin\Debug\log4net.dll
+D:\demo\WPFCamera-main\Common\bin\Debug\Newtonsoft.Json.dll
+D:\demo\WPFCamera-main\Common\bin\Debug\System.CodeDom.dll
+D:\demo\WPFCamera-main\Common\bin\Debug\log4net.xml
+D:\demo\WPFCamera-main\Common\bin\Debug\Newtonsoft.Json.xml
+D:\demo\WPFCamera-main\Common\bin\Debug\System.CodeDom.xml
+D:\demo\WPFCamera-main\Common\obj\Debug\Common.csproj.AssemblyReference.cache
+D:\demo\WPFCamera-main\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+D:\demo\WPFCamera-main\Common\obj\Debug\Common.csproj.Up2Date
+D:\demo\WPFCamera-main\Common\obj\Debug\Common.dll
+D:\demo\WPFCamera-main\Common\obj\Debug\Common.pdb
