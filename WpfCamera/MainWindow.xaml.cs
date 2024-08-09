@@ -29,7 +29,7 @@ namespace WpfCamera
 		public MainWindow()
 		{
             LogHelper.Logger = LogManager.GetLogger("MyFileAppender");
-            LogHelper.LogInfo($"Start");
+            LogHelper.LogInfo($"Start Camera");
             //var t = new LocalDbContext();
 
             InitializeComponent();
