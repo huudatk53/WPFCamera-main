@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediaCaptueApiNetFx", "Medi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediaCaptureWPF", "MediaCaptureApiWPF\MediaCaptureWPF.csproj", "{AE3632AD-D1FB-4774-90DC-572E69974B3C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckInOut", "CheckInOut\CheckInOut.csproj", "{C22F39E0-45F2-4A40-97C4-4B59EE1D5FFB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{AE3632AD-D1FB-4774-90DC-572E69974B3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AE3632AD-D1FB-4774-90DC-572E69974B3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AE3632AD-D1FB-4774-90DC-572E69974B3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C22F39E0-45F2-4A40-97C4-4B59EE1D5FFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C22F39E0-45F2-4A40-97C4-4B59EE1D5FFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C22F39E0-45F2-4A40-97C4-4B59EE1D5FFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C22F39E0-45F2-4A40-97C4-4B59EE1D5FFB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
