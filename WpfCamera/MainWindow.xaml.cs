@@ -11,7 +11,7 @@ using Windows.Media.MediaProperties;
 using Windows.Storage;
 using Windows.Storage.Streams;
 using Windows.UI.Xaml.Controls;
-
+using LocalDatabase;
 namespace WpfCamera
 {
 	/// <summary>
@@ -29,7 +29,7 @@ namespace WpfCamera
 		{
             LogHelper.Logger = LogManager.GetLogger("MyFileAppender");
             LogHelper.LogInfo($"Start Camera");
-            //var t = new LocalDbContext();
+            var t = new LocalDbContext();
 
             InitializeComponent();
 

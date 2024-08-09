@@ -27,10 +27,11 @@ namespace LocalDatabase
             try
             {
                 this.Database.CreateIfNotExists();
+                Database.Initialize(false);
             }
             catch (Exception ex)
             {
-               
+                var t = ex;
             }
         }
     }

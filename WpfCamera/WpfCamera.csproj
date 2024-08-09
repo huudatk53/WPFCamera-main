@@ -118,6 +118,10 @@
       <Project>{9eeebf30-34a3-4fba-ae1d-75fbe638ccf6}</Project>
       <Name>Common</Name>
     </ProjectReference>
+    <ProjectReference Include="..\LocalDatabase\LocalDatabase.csproj">
+      <Project>{d982717a-2d46-47b7-bdf3-d84f1dfdd519}</Project>
+      <Name>LocalDatabase</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
