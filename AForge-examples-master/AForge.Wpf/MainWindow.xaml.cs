@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
+using System.Diagnostics.Tracing;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -53,6 +54,7 @@ namespace AForge.Wpf
             this.DataContext = this;
             GetVideoDevices();
             this.Closing += MainWindow_Closing;
+            StartCamera();
         }
 
         private void MainWindow_Closing(object sender, System.ComponentModel.CancelEventArgs e)
@@ -137,8 +139,31 @@ namespace AForge.Wpf
                 var e = new PropertyChangedEventArgs(propertyName);
                 handler(this, e);
             }
-        } 
+        }
 
         #endregion
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+
+            // Lấy kích thước màn hình
+            var screenWidth = (int)SystemParameters.PrimaryScreenWidth;
+            var screenHeight = (int)SystemParameters.PrimaryScreenHeight;
+
+            // Tạo bitmap để chứa ảnh chụp màn hình
+            using (var bitmap = new Bitmap(screenWidth, screenHeight))
+            {
+                using (var graphics = Graphics.FromImage(bitmap))
+                {
+                    // Chụp toàn bộ màn hình
+                    graphics.CopyFromScreen(0, 0, 0, 0, bitmap.Size);
+                }
+
+                // Lưu ảnh dưới dạng PNG
+                bitmap.Save("full_screenshot.png", System.Drawing.Imaging.ImageFormat.Png);
+            }
+
+            MessageBox.Show("Screenshot saved as full_screenshot.png", "Info", MessageBoxButton.OK, MessageBoxImage.Information);
+        }
     }
 }

@@ -27,17 +27,26 @@
                Content="Select video source" />
         <Button Width="67"
                 Height="21"
-                Margin="213,0,0,25"
+                Margin="199,0,0,25"
                 HorizontalAlignment="Left"
                 VerticalAlignment="Bottom"
                 Click="btnStart_Click"
                 Content="Start" />
         <Button Width="67"
                 Height="21"
-                Margin="296,0,0,25"
+                Margin="281,0,0,25"
                 HorizontalAlignment="Left"
                 VerticalAlignment="Bottom"
                 Click="btnStop_Click"
                 Content="Stop" />
+        <Button Width="67"
+        Height="21"
+        Margin="281,0,0,25"
+        HorizontalAlignment="Left"
+        VerticalAlignment="Bottom"
+                x:Name="btnChup"
+        Click="Button_Click"
+        Content="Chụp" />
+        
     </Grid>
 </Window>
